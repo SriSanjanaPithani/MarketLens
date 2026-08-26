@@ -1,19 +1,22 @@
 # Stock Market Analysis Dashboard
 
-An interactive Python dashboard for exploring historical stock
-prices, technical indicators, company performance, and a basic
-machine-learning model.
+An interactive Streamlit application for analyzing historical stock performance, technical indicators, multi-company comparisons, and a simple machine-learning model.
+
+## Live Demo
+
+[View the Live Stock Market Analysis Dashboard](https://srisanjana-stock-analysis.streamlit.app)
 
 ## Features
 
-- Download historical stock data
-- View interactive price charts
+- Download historical stock data with yfinance
+- View interactive closing-price charts
 - Calculate 20-day and 50-day moving averages
 - Calculate RSI
 - Calculate MACD
-- Compare multiple companies
-- Download processed data as a CSV file
-- Evaluate a basic linear-regression model
+- Compare multiple companies by percentage performance
+- Select custom date ranges
+- Download processed data as CSV
+- Evaluate a simple linear-regression model
 
 ## Technologies Used
 
@@ -25,9 +28,15 @@ machine-learning model.
 - Streamlit
 - scikit-learn
 
-## Installation
+## Project Structure
 
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_LINK
+```text
+stock-dashboard/
+├── app.py
+├── README.md
+├── requirements.txt
+└── src/
+    ├── __init__.py
+    ├── data_loader.py
+    ├── indicators.py
+    └── model.py
