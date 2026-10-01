@@ -16,7 +16,7 @@ https://marketlens-analysis.netlify.app
 ### Compare Companies
 ![Compare Companies](screenshots/compare-companies.png)
 
-### ML & Watchlist
+### Machine Learning Model
 ![ML and Watchlist](screenshots/ml-model.png)
 ## Features
 
