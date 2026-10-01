@@ -4,6 +4,20 @@ MarketLens is a full-stack stock market analytics dashboard for exploring histor
 
 The application uses a React frontend, FastAPI backend, PostgreSQL database, and historical market data from yfinance.
 
+## Live Demo
+
+https://marketlens-analysis.netlify.app
+
+## Screenshots
+
+### Main Dashboard
+![Main dashboard](screenshots/main-dashboard.png)
+
+### Compare Companies
+![Compare Companies](screenshots/compare-companies.png)
+
+### ML & Watchlist
+![ML and Watchlist](screenshots/ml-model.png)
 ## Features
 
 - Analyze historical stock prices over custom date ranges
